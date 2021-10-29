@@ -18,11 +18,10 @@ setup(
     include_package_data=True,
     zip_safe=False,
     extras_require={},
-    data_files=[("config", ["cfg.ini"])],
     install_requires=requires,
     entry_points={
         "console_scripts": [
-            "start = bot:main",
+            "start_coinflip = bot:main",
         ],
     },
 )
