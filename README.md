@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/qqpayne/coin_flip">
-    <img src=".github/logo.png" alt="Logo" width="290" height="290">
+    <img src=".github/logo.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">coin_flip</h3>
