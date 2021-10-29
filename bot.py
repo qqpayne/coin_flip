@@ -18,6 +18,7 @@ Use following commands:
 
 START_TEXT = """
 A super-modern software development tool that lets you finally decide which framework/tooling/etc to use. By flipping a coin.
+P.S. you can use bot inline; just type @coin_flips_bot in any chat
 """
 
 
