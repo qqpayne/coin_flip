@@ -1,5 +1,6 @@
 from telebot import TeleBot
 from random import randint
+from telebot import types
 
 from os import environ
 
@@ -30,11 +31,24 @@ def start_message(message):
     bot.send_message(message.chat.id, START_TEXT)
 
 
+def choice() -> str:
+    random = randint(0, 1)
+    return "Heads" if random == 1 else "Tails"
+
+
 @bot.message_handler(commands=["coin"])
 def flip_coin(message):
-    random = randint(0, 1)
-    text = "Heads" if random == 1 else "Tails"
-    bot.send_message(message.chat.id, text)
+    bot.send_message(message.chat.id, choice())
+
+
+@bot.inline_handler(lambda query: True)
+def flip_coin_inline(inline_query):
+    r = types.InlineQueryResultArticle(
+        id="1",
+        title="Flip a coin",
+        input_message_content=types.InputTextMessageContent(message_text=choice()),
+    )
+    bot.answer_inline_query(inline_query.id, [r], cache_time=0, is_personal=True)
 
 
 def main():
