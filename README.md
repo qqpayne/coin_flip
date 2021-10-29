@@ -13,9 +13,7 @@
     <a href="https://github.com/qqpayne/coin_flip/issues">Request feature</a>
   </p>
 </p>
-<br>
 <hr>
-<br>
 
 ## About
 
@@ -31,7 +29,7 @@ The randomizer should be the one to decide. Unfortunately, there was no alive ra
 
 Type @coin_flips_bot in any dialog in [Telegram](https://telegram.org) and choice 'Flip a coin'.
 
-If you want to use it directly, follow this link: t.me/coin_flips_bot.
+If you want to use it directly, follow this link: [t.me/coin_flips_bot](t.me/coin_flips_bot).
 
 ## License
 
