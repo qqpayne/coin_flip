@@ -16,7 +16,7 @@ Use following commands:
 """
 
 START_TEXT = """
-A simple bot which allows solve questions of your life by flipping a coin. 
+A super-modern software development tool that lets you finally decide which framework/tooling/etc to use. By flipping a coin.
 """
 
 
