@@ -27,9 +27,9 @@ The randomizer should be the one to decide. Unfortunately, there was no alive ra
 
 ## Usage
 
-Type @coin_flips_bot in any dialog in [Telegram](https://telegram.org) and choice 'Flip a coin'.
+Type `@coin_flips_bot` in any dialog in [Telegram](https://telegram.org) and choice 'Flip a coin'.
 
-If you want to use it directly, follow this link: [t.me/coin_flips_bot](t.me/coin_flips_bot).
+If you want to use it directly, follow this link: [t.me/coin_flips_bot](https://t.me/coin_flips_bot).
 
 ## License
 
@@ -37,6 +37,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contacts
 
-Ivan Akostelov - [telegram](t.me/qPayne) - [github](https://github.com/qqpayne)
+Ivan Akostelov - [telegram](https://t.me/qPayne) - [github](https://github.com/qqpayne)
 
-Evgeniy Mayorov - [telegram](t.me/foxxxxxxxxxxxxxxxxxxxxxxxxxxx) - [github](https://github.com/idonotknowwhoiam)
+Evgeniy Mayorov - [telegram](https://t.me/foxxxxxxxxxxxxxxxxxxxxxxxxxxx) - [github](https://github.com/idonotknowwhoiam)
