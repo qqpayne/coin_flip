@@ -53,7 +53,11 @@ def flip_coin_inline(inline_query):
 
 
 def main():
-    bot.polling()
+    while True:
+        try:
+            bot.polling()
+        except:
+            pass
 
 
 if __name__ == "__main__":
